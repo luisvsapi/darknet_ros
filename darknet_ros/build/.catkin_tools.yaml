@@ -1,0 +1,6 @@
+devel_space: /home/ubuntu/Documents/amr/recon/workspace2/src/darknet_ros/darknet_ros/devel
+install: false
+install_space: /home/ubuntu/Documents/amr/recon/workspace2/src/darknet_ros/darknet_ros/install
+profile: default
+source_space: /home/ubuntu/Documents/amr/recon/workspace2/src/darknet_ros/darknet_ros/src
+workspace: /home/ubuntu/Documents/amr/recon/workspace2/src/darknet_ros/darknet_ros
