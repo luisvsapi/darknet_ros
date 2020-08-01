@@ -497,6 +497,8 @@ void YoloObjectDetector::yolo() {
       } else {
         generate_image(buff_[(buffIndex_ + 1) % 3], ipl_);
       }
+      fetch_thread.join();
+      detect_thread.join();
       publishInThread();
     } else {
       char name[256];
